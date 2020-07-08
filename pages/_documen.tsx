@@ -1,4 +1,4 @@
-import Document from 'next/document'
+import Document, { Head, Html } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 
 export default class MyDocument extends Document {
@@ -17,10 +17,14 @@ export default class MyDocument extends Document {
       return {
         ...initialProps,
         styles: (
-          <>
+          <Html>
+            <Head>
+              <title>Youtube statics | Home</title>
+              <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+            </Head>
             {initialProps.styles}
             {sheet.getStyleElement()}
-          </>
+          </Html>
         ),
       }
     } finally {
