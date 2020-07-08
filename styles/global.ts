@@ -8,12 +8,12 @@ const GlobalStyle =  createGlobalStyle`
   }
   body {
     -webkit-font-smoothing: antialiased;
-    background: #FBF8F6;
-    color: #353535;
+    background: #f7faff;
+    color: #6f7380;
     text-rendering: optimizeLegibility;
   }
   body, input, button {
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
   }
   h1, h2, h3, h4, h5, h6, strong {
