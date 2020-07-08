@@ -8,7 +8,7 @@ const GlobalStyle =  createGlobalStyle`
   }
   body {
     -webkit-font-smoothing: antialiased;
-    background: #ffff;
+    background: #FBF8F6;
     color: #353535;
     text-rendering: optimizeLegibility;
   }
